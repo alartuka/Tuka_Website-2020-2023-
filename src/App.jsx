@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./components/pages/Home";
@@ -8,8 +7,7 @@ import Navbar from "./components/pages/Navbar";
 import Footer from "./components/pages/Footer"
 import Portfolio from "./components/pages/Portfolio";
 // import Resume from "./components/pages/Resume";
-import ScrollTop from "./ScrollTop";
-
+import ScrollTop from "./components/utils/ScrollTop";
 
 function App() {
   return (

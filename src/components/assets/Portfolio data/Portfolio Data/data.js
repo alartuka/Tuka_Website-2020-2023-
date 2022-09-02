@@ -1,8 +1,8 @@
 
-import IMG1 from '../projImgs/ProPy_mockup.png';
-import IMG2 from '../projImgs/SupportWall.png';
-import IMG3 from '../projImgs/portfolio1.jpg';
-import IMG4 from '../projImgs/portfolio2.jpg';
+import IMG1 from '../Portfolio Data/ProPy_mockup.png';
+import IMG2 from '../Portfolio Data/SupportWall.png';
+import IMG3 from '../Portfolio Data/portfolio1.jpg';
+// import IMG4 from '../portfolio2.jpg';
 
 const data = [
   {
