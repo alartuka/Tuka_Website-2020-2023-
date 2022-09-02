@@ -1,0 +1,45 @@
+.about {
+    display: flex;
+  }
+  /* .about h1 {
+      text-align: left;
+      text-indent: 25%;
+  }
+  .about .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 200px;
+  }
+  
+  .about .leftSide img {
+    border-radius: 50%;
+    width: 280px;
+    align-items: center;
+  }
+  
+  .about .rightSide {
+    flex: 60%;
+    display: flex;
+    align-items: right;
+    padding-right: 70px;
+    padding-top: 80px;
+    justify-content: right;
+  } */
+
+  .about_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  /* .about_item {
+    background-color: blanchedalmond;
+  } */
+  
+  .about_img {
+    border-radius: 50%;
+    width: 280px;
+    align-items: center;
+  }

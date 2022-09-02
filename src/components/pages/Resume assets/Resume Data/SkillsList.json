@@ -1,0 +1,17 @@
+[
+    {
+      "id": "1",
+      "skill": "JavaScript",
+      "level": "70"
+  },
+  {
+    "id": "2",
+    "skill": "Python",
+    "level": "75"
+},
+{
+  "id": "3",
+  "skill": "C",
+  "level": "55"
+}
+  ]

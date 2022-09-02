@@ -1,0 +1,46 @@
+*{
+    
+    gap: 2rem;
+}
+
+.resume_header {
+    margin-bottom: 3%;
+    background-color: rgb(60, 6, 110);
+    border-radius: 1.5rem;
+}
+
+.name {
+    text-align: center;
+}
+
+.contact {
+    justify-self: center;
+}
+
+.resume_container {
+    background-color: rgb(57, 77, 77);
+    border-radius: 1.3rem;
+    margin-bottom: 21.2%;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2rem; */
+}
+
+.education {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    background-color: rgb(225, 222, 252);
+}
+
+.skills {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    background-color: rgb(225, 222, 252);
+}
