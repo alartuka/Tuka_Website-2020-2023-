@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(4, 4, 93);
   color: white;
-  margin-top: 7%;
+  /* margin-top: 5%; */
 }
 
 code {

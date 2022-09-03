@@ -26,16 +26,19 @@ function About() {
             <Grid item xs={10} spacing={3}>
               <div className="about_item">
                   <p>
-                    I am Tuka Alarbi, a tech-savvy individual, studying at the University of Waterloo (2020-present) for a Bachelor's degree
-                    in Computer Science with a minor in Cognitive Science. 
+                    I am Tuka Alarbi, a tech-savvy individual, studying at the University of 
+                    Waterloo [2020-present | aka the "Pandemic Cohort"] for a Bachelor's degree in Computer Science with a 
+                    minor in Cognitive Science. 
                     <br /><br />
-                    As I am passionate about consistently advancing my knowledge and skills, I am 'always on the hunt' for 'new' experiences 
-                    to apply them in 'different' ways. I have completed various online course on software development, and I try to find the 
-                    sense of wonder in what I do to keep myself motivated to apply what I learn on everything I do and be dedicated to 
-                    my work.
+                    As I am passionate about consistently advancing my knowledge and skills, 
+                    I am 'always on the hunt' for 'new' experiences to apply them in 'different' 
+                    ways. I have completed various online course on software development, and I 
+                    try to find the sense of wonder in what I do to keep myself motivated to 
+                    apply what I learn on everything I do and be dedicated to my work.
                     <br /><br />
-                    As technology has always been my sense of wonder throughtout my childhood, I eventually became interested
-                    in the psychological aspect of technical creations. 
+                    As technology has always been my sense of wonder throughtout my childhood, 
+                    I eventually became interested in the psychological aspect of technical 
+                    creations. 
                   </p> 
               </div>
             </Grid>
