@@ -1,14 +1,25 @@
 .porfolio_header {
     margin-bottom: 3%;
     background-color: rgb(110, 6, 95);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     margin-top: 7%;
+    animation-name: port_header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
 }
+
+@keyframes port_header {
+    25%  {background-color:blueviolet; left:200px; top:0px;}
+    50%  {background-color:indigo; left:200px; top:200px;}
+    75%  {background-color:darkblue; left:0px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+  }
 
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 4%;
+
 }
 
 .portfolio_item {

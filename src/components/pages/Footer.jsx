@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 import { LinkedIn } from "@mui/icons-material";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from "@mui/material/Link";
 import { GitHub } from "@mui/icons-material";
 import Logo from '../assets/signature.png';
@@ -22,7 +23,7 @@ function Footer() {
 
         <Link href="http://www.github.com/alartuka"
           target="_blank" >
-          <GitHub />
+          <GitHubIcon />
         </Link>
       </div>
     </div>

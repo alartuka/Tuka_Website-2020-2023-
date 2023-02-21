@@ -26,10 +26,10 @@ function Portfolio() {
                         <div key={id} className='portfolio_item'>
                           <Container>
                             <Chip className="item_tag" label={tag} color="primary" />
-                          
+
                             <img className="item_img" src={img} alt={name} />
                           </Container>
-
+                          
                           <Container className='item_content'>
                             <Typography gutterBottom variant="h5" component="div">
                               {name}

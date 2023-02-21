@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/Home.css";
 import bannerIMG from "../assets/homebanner.jpg";
 import selfIMG from "../assets/CardPhoto.jpg";
-import portfolioIMG from "../assets/portfolio2.jpg";
+import portfolioIMG from "../assets/Portfolio data/Portfolio Data/thumbnail.jpg";
+import passionIMG from "../assets/passion_thmbnl.jpg";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import {
@@ -80,6 +81,7 @@ function Home() {
                     </Typography>
 
                     <img className="links_img" src={selfIMG} alt="Tuka A" />
+            
 
                   </div>
                 </div>
@@ -110,7 +112,7 @@ function Home() {
                     Passion projects
                   </Typography>
 
-                  <img className="links_img" src={portfolioIMG} alt="Sense of Wonder" />
+                  <img className="links_img" src={passionIMG} alt="Sense of Wonder" />
 
                 </div>
               </div>

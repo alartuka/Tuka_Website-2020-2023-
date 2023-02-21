@@ -8,7 +8,7 @@ const data = [
   {
       id: 1,
       name: "SupportWall",
-      desc: "anonymous support system, operates as sticky notes of all what you need to let out anonymously",
+      desc: "Anonymous support system for students with a sticky-notes organized limitless wall to express themselves anonymously",
       demo: "https://github.com/alartuka/SupportWall",
       img: IMG2,
       tag: "Technical"
@@ -25,8 +25,9 @@ const data = [
 
   {
       id: 3,
-      name: "Project31: PYTHON",
-      desc: "Making various programs throught a 31-days period in a specific language (Python)",
+      name: "Forage",
+      desc: "Efficiency optimization system for foodbank operations that makes use of Machine Learning",
+      demo: "https://github.com/alartuka/Forage",
       img: IMG3,
       tag: "Technical"
     },
@@ -34,7 +35,8 @@ const data = [
     {
       id: 4,
       name: "Citizen-ize",
-      desc: "An immigration guide application for necomers to Canada",
+      desc: "A guide for immigration and citizenship to eases the process for newcomers and permenant residents. Providing tools for soical connections, and legal services",
+      demo: "https://devpost.com/software/citizen-ize",
       img: IMG3,
       tag: "Design"
     }
