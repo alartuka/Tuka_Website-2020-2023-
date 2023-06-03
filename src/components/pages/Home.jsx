@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Home.css";
-import bannerIMG from "../assets/homebanner.jpg";
 import selfIMG from "../assets/CardPhoto.jpg";
 import portfolioIMG from "../assets/Portfolio data/Portfolio Data/thumbnail.jpg";
 import passionIMG from "../assets/passion_thmbnl.jpg";
@@ -11,29 +10,27 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
-
-
 function Home() {
 
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
+      loop: true,
       showCursor: true,
-      backDelay: 1200,
-      backSpeed: 60,
-      strings: ["Student", "Creator",
-        "Wonderer"],
+      backSpeed: 100,
+      startDelay: 120,
+      backDelay: 1700,
+      strings: ["Student", "Creator", "Wonderer", "Inventor"],
     });
   }, []);
 
   return (
     <section id="home">
-      <header className="home_header">
-        <img src={bannerIMG} alt="BANNER" width="100%" height="400" />
-        <h1>
+      <Container className="home_header">        
+        <Typography id="div" variant='h1'>
           A Sense of Wonder in A World Gone Mad
-        </h1>
-      </header>
+        </Typography>
+      </Container>
 
       <Container className="attributes_section">
         <Box sx={{ flexGrow: 6 }}>
@@ -105,17 +102,19 @@ function Home() {
             </Grid>
 
             <Grid item xs={10} spacing={3}>
-              <div className="links_item">
-                <div className="links_content">
+              <Link to="./Passion">
+                <div className="links_item">
+                  <div className="links_content">
 
-                  <Typography variant="h3">
-                    Passion projects
-                  </Typography>
+                    <Typography variant="h3">
+                      Passion projects
+                    </Typography>
 
-                  <img className="links_img" src={passionIMG} alt="Sense of Wonder" />
+                    <img className="links_img" src={passionIMG} alt="Sense of Wonder" />
 
+                  </div>
                 </div>
-              </div>
+                </Link>
             </Grid>
           </Grid>
         </Box>

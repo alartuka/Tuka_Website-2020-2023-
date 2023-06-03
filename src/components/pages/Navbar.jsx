@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/signature.png';
+import Logo from '../assets/Logo.png';
 import { Link } from 'react-router-dom';
 import ReorderRoundedIcon from '@mui/icons-material/ReorderRounded';
 import '../styles/Navbar.css';
@@ -20,6 +20,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/Portfolio"> Portfolio </Link>
         {/* <Link to="/Resume"> Resume </Link> */}
+        <Link to="/Passion"> Passion </Link>
         <Link to="/About"> About </Link>
         {/* <Link to="/Contact"> Contact </Link> */}
         </div>
@@ -28,8 +29,8 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/Portfolio"> Portfolio </Link>
         {/* <Link to="/Resume"> Resume </Link> */}
+        <Link to="/Passion"> Passion </Link>
         <Link to="/About"> About </Link>
-        {/* <Link to="/Contact"> Contact </Link> */}
         <button onClick={toggleNavbar}>
           <ReorderRoundedIcon />
         </button>

@@ -9,8 +9,8 @@ function Portfolio() {
   return (
     <section id='portfolio'>
       <div>
-        <Container className='porfolio_header'>
-          <Typography variant="h2" component="div">
+        <Container className='portfolio_header'>
+          <Typography  id="div" variant="h1">
             Portfolio
           </Typography>
         </Container>

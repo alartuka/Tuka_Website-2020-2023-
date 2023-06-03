@@ -4,14 +4,14 @@ import { LinkedIn } from "@mui/icons-material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from "@mui/material/Link";
 import { GitHub } from "@mui/icons-material";
-import Logo from '../assets/signature.png';
+import Logo from '../assets/Logo.png';
 
 function Footer() {
   return (
     <div className="footer">
       <div className="leftSide" >
         <Link to="/"><img src={Logo} alt='Logo' /></Link>
-        <p>2022 &copy; </p>
+        <p>2023 &copy; </p>
       </div>
 
       <div className="rightSide">
